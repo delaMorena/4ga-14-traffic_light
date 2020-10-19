@@ -1,40 +1,30 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
-/*.trafficLight {
+.trafficLight{
     background-color: black;
     width: 200px;
-    height: 500px;
+    height: 480px;
+    display: block;
+    border-radius: 15px;
+    margin: 100px auto;
+    padding-top: 20px;
 
-}*/
-.red{
+}
+.light {
     width: 150px;
     height: 150px;
     border-radius: 100px;
+    margin: auto;
+}   
+.red{
     background: red;    
 }
 .yellow{
-width: 150px;
-height: 150px;
-border-radius: 100px;
-background: yellow;
+    background: yellow;
 }
 .green{
-width: 150px;
-height: 150px;
-border-radius: 100px;
-background: green;
+    background: green;
 }
 .selected {
-    box-shadow: #f8ffcc 0px 50px 20px;
+    box-shadow: #f8ffcc 0px 0px 20px;
 }
