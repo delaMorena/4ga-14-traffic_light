@@ -11,3 +11,30 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+/*.trafficLight {
+    background-color: black;
+    width: 200px;
+    height: 500px;
+
+}*/
+.red{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background: red;    
+}
+.yellow{
+width: 150px;
+height: 150px;
+border-radius: 100px;
+background: yellow;
+}
+.green{
+width: 150px;
+height: 150px;
+border-radius: 100px;
+background: green;
+}
+.selected {
+    box-shadow: #f8ffcc 0px 50px 20px;
+}
